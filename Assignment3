@@ -1,0 +1,19 @@
+%Sinjon Bartel
+%Group #8
+%
+%ENGR-0016 (Sanchez)
+%Assignment #3
+%
+
+load('data.txt');
+
+[rows, cols] = size(data);
+
+A = data(:,1:rows);
+
+b = data(:, cols);
+
+x = inv(A)*b
+
+
+
